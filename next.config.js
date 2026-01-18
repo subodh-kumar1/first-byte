@@ -5,8 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/first-byte",
-  assetPrefix: "/first-byte/"
 
 };
 

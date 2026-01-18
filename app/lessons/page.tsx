@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 
 import "./styles.css";
 
-const lessons = await fetch("/first-byte/api/lessons").then((res) => res.json()) || [];
+const lessons = await fetch("/api/lessons").then((res) => res.json()) || [];
 
 export default function LessonsPage() {
   const [completed, setCompleted] = useState<string[]>([]);
@@ -18,7 +18,7 @@ export default function LessonsPage() {
     <div>
       <h1>Lessons</h1>
       <div className="card-wrapper">
-        {lessons.map((lesson) => (
+        {lessons?.map((lesson) => (
           <div key={lesson.slug} className="card-container">
             <LessonCard
               key={lesson.slug}
