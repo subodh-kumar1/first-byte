@@ -1,0 +1,180 @@
+{
+  "courseId": "first-steps",
+  "courseTitle": "Your First Steps in Programming",
+  "description": "Learn programming gently, without pressure. Designed for first-time learners.",
+  "language": "Hinglish",
+  "chapters": [
+    {
+      "chapterId": "ch-01",
+      "title": "Getting Started",
+      "description": "Understanding what programming really is.",
+      "lessons": [
+        {
+          "lessonId": "l-01",
+          "title": "What is Programming?",
+          "duration": "5 min",
+          "content": [
+            {
+              "type": "text",
+              "value": "Programming means giving step-by-step instructions to a computer. Don’t worry if this feels new — everyone starts here."
+            },
+            {
+              "type": "image",
+              "src": "/images/programming-basics.svg",
+              "alt": "Human giving instructions to computer"
+            },
+            {
+              "type": "note",
+              "value": "You don’t need to remember everything. Just understand the idea."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapterId": "ch-02",
+      "title": "Thinking Like a Computer",
+      "description": "Learning how computers understand instructions.",
+      "lessons": [
+        {
+          "lessonId": "l-02",
+          "title": "How Computers Think",
+          "duration": "6 min",
+          "content": [
+            {
+              "type": "text",
+              "value": "Computers follow clear instructions. They don’t guess. If we explain clearly, they work perfectly."
+            },
+            {
+              "type": "example",
+              "value": "Like filling a railway form: each field must be clear."
+            },
+            {
+              "type": "note",
+              "value": "If it feels confusing, that’s okay. Read it once more slowly."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapterId": "ch-03",
+      "title": "Storing Information",
+      "description": "Learning how programs remember data.",
+      "lessons": [
+        {
+          "lessonId": "l-03",
+          "title": "Variables",
+          "duration": "7 min",
+          "content": [
+            {
+              "type": "text",
+              "value": "Variables are like labeled boxes where we store information."
+            },
+            {
+              "type": "code",
+              "language": "javascript",
+              "value": "let age = 20;"
+            },
+            {
+              "type": "example",
+              "value": "Think of a school bag where each pocket has a name."
+            },
+            {
+              "type": "note",
+              "value": "Mistakes are normal. Even experienced programmers make them."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapterId": "ch-04",
+      "title": "Making Decisions",
+      "description": "Teaching programs how to choose.",
+      "lessons": [
+        {
+          "lessonId": "l-04",
+          "title": "If / Else",
+          "duration": "6 min",
+          "content": [
+            {
+              "type": "text",
+              "value": "Programs can make decisions using conditions."
+            },
+            {
+              "type": "code",
+              "language": "javascript",
+              "value": "if (age >= 18) {\n  console.log('Adult');\n}"
+            },
+            {
+              "type": "example",
+              "value": "If it rains, take an umbrella. Otherwise, don’t."
+            },
+            {
+              "type": "note",
+              "value": "Take your time. There is no hurry."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapterId": "ch-05",
+      "title": "Repeating Work",
+      "description": "Saving effort by repeating tasks.",
+      "lessons": [
+        {
+          "lessonId": "l-05",
+          "title": "Loops",
+          "duration": "7 min",
+          "content": [
+            {
+              "type": "text",
+              "value": "Loops help us repeat the same task multiple times."
+            },
+            {
+              "type": "example",
+              "value": "Like checking attendance for each student in a class."
+            },
+            {
+              "type": "note",
+              "value": "If loops feel tricky, that’s completely okay."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "chapterId": "ch-06",
+      "title": "Problem Solving",
+      "description": "Learning how programmers think.",
+      "lessons": [
+        {
+          "lessonId": "l-06",
+          "title": "Thinking in Steps",
+          "duration": "5 min",
+          "content": [
+            {
+              "type": "text",
+              "value": "Every problem can be solved by breaking it into small steps."
+            },
+            {
+              "type": "example",
+              "value": "Cooking a meal: first prepare, then cook, then serve."
+            },
+            {
+              "type": "note",
+              "value": "You are learning a valuable life skill, not just programming."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

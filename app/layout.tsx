@@ -2,8 +2,8 @@ import React from "react";
 import "./styles.css";
 
 export const metadata = {
-  title: "First-Byte",
-  description: "Learn coding in small bytes!",
+  title: "First Byte",
+  description: "Learn gently. No pressure."
 };
 
 export default function RootLayout({
