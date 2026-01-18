@@ -1,0 +1,17 @@
+.card-container {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-container:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-wrapper {
+  flex-direction: row;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}

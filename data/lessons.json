@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "slug": "html-basics",
+    "title": "HTML Basics",
+    "content": "<p>HTML is the structure of web pages. Example: <code>&lt;h1&gt;Hello&lt;/h1&gt;</code></p>"
+  },
+  {
+    "id": 2,
+    "slug": "css-basics",
+    "title": "CSS Basics",
+    "content": "<p>CSS styles your HTML. Example: <code>color: red;</code></p>"
+  },
+  {
+    "id": 3,
+    "slug": "js-basics",
+    "title": "JavaScript Basics",
+    "content": "<p>JavaScript makes your page interactive. Example: <code>alert('Hello')</code></p>"
+  }
+]

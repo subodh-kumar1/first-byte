@@ -1,13 +1,25 @@
-import React from 'react';
+import React from "react";
+import "./styles.css";
+
+export const metadata = {
+  title: "First-Byte",
+  description: "Learn coding in small bytes!",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <header>
+          <h1>{metadata.title}</h1>
+          <p>{metadata.description}</p>
+        </header>
+        <main>{children}</main>
+      </body>
     </html>
-  )
+  );
 }
