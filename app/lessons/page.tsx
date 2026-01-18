@@ -4,10 +4,11 @@
 import LessonCard from "@/components/lesson-card";
 import { getCompletedLessons } from "@/lib/storage";
 import { useEffect, useState } from "react";
+import lessons from "@/data/lessons.json";
 
 import "./styles.css";
 
-const lessons = await fetch("/api/lessons").then((res) => res.json()) || [];
+// const lessons = await fetch("/api/lessons").then((res) => res.json()) || [];
 
 export default function LessonsPage() {
   const [completed, setCompleted] = useState<string[]>([]);
