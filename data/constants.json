@@ -1,0 +1,10 @@
+{
+    "customerHome" : {
+        "heading" : "Delivering to / डिलीवर करें",
+        "searchPlaceholder": "Search shops / दुकान खोजें",
+        "deliveryTab": "Delivery / डिलीवरी",
+        "pickupTab": "Pickup / पिकअप",
+        "nearbyShops": "Nearby Shops / नज़दीकी दुकानें",
+        "freeDelivery": "Free Delivery / मुफ़्त डिलीवरी"
+    }
+}

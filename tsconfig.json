@@ -21,7 +21,9 @@
       "@/components/*": ["./components/*"],
       "@/lib/*": ["./lib/*"],
       "@/data/*": ["./data/*"],
-      "@/app/*": ["./app/*"]
+      "@/app/*": ["./app/*"],
+      "@/custom-hook/*": ["./custom-hooks/*"],
+      "@/types/*": ["./types/*"]
     },
     "jsx": "react-jsx",
     "plugins": [

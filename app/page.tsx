@@ -1,17 +1,18 @@
-import Link from "next/link";
+import { CustomerHome } from "@/components/customer-home";
+// import Link from "next/link";
+
+// import { ShopDetails } from "@/components/shop-details";
 
 export default function Page() {
+  
   return (
     <div>
-      <h1>First Byte</h1>
-      <p>
-        Learn programming slowly.  
-        No pressure. No comparison.
-      </p>
-
-      <Link href="/chapters">
+      
+      <CustomerHome />
+      {/* <ShopDetails /> */}
+      {/* <Link href="/chapters">
         Start Learning →
-      </Link>
+      </Link> */}
     </div>
   );
 }
