@@ -1,6 +1,6 @@
 import useConstants from "@/custom-hook/useConstants";
 import { Search, MapPin, Store } from "lucide-react";
-import LocationDetector from "@/components/location-detector";
+// import LocationDetector from "@/components/location-detector";
 
 interface Shop {
   id: number;
@@ -75,7 +75,8 @@ export async function CustomerHome() {
               {heading}
             </div>
             {/* <div className="font-semibold">Gaya, Bihar</div> */} {/* Dynamic */}
-            <LocationDetector />
+            {/* <LocationDetector /> */}
+            <div className="font-semibold">Dwarka, Delhi</div>
           </div>
         </div>
       </div>
